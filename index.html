@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <title>My-Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo-light.svg" alt="Devblog's logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="Devblog's logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Mahmoud Elkariouny</b>
+            <br>Web Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in Web Development.
+          </p>
+
+          <div class="btn-group">
+            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" target="_blank"
+              class="btn btn-primary">Contact Me
+              <ion-icon name="call"></ion-icon>
+            </a>
+            <a href="#" class="btn btn-secondary">Download CV
+              <ion-icon name="cloud-download-sharp"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Julia Walker" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Projects</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/home.png" alt="technologies book" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3>
+                  <a href="https://github.com/mahmoudessam820/Teck-Books" class="h3" target="_blank">
+                    Teck Books
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Free technology Books Market
+
+                  This site lists free download computer science, software engineer and programming books, textbooks and
+                  lecture notes, cheat sheet, all of which are freely available.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Oct 17, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/to-do-app.PNG" alt="to do app" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3><a href="https://github.com/mahmoudessam820/To-Do-App" class="h3" target="_blank">To Do App</a></h3>
+
+                <p class="blog-text">
+                  full-stack To-Do app with Flask&Vue.js
+
+                  To-Do is a task management app to help you stay organized and manage your day-to-day.
+
+                  You can use To-Do to make task lists to increase your productivity and focus on what matters to you.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Sep 10, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/movies-trailers.jpg" alt="movies-trailers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3><a href="https://github.com/mahmoudessam820/Movies-trailers" class="h3" target="_blank">Movies
+                    Trailers</a></h3>
+
+                <p class="blog-text">
+                  Movies trailers app built with Vue.js and Bootstrap.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Jun 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/blog.jpg" alt="blog" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3><a href="https://github.com/mahmoudessam820/My-Blog" class="h3" target="_blank">My Blog</a></h3>
+
+                <p class="blog-text">
+                  Blogging is a great way to communicate with friends, family, and the world at large.
+
+                  Blogging is the process of writing a personal weblog, or blog, as an online diary.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Oct 20, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/projects/quotefancy.jpg" alt="quotefancy" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Projects</button>
+
+                <h3><a href="https://github.com/mahmoudessam820/quotes-app" class="h3" target="_blank">Quotes App</a>
+                </h3>
+
+                <p class="blog-text">
+                  Quotes app is a full-stack web application with Vue.js and Flaks.
+
+                  Whether you're going through hard times, need an extra push to get stuff done, or like sharing
+                  inspirational quotes in social media, Motivation has you covered.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Nov 10, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <h2 class="h2">Latest Blogs</h2>
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blogs/oop.png" alt="OOP" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Programming</button>
+
+                <h3><a href="https://dev.to/mahmoudessam/learn-python-oop-with-lecture-playlist-book-cheat-sheet-29l6"
+                    class="h3" target="_blank">Master Python OOP</a>
+                </h3>
+
+                <p class="blog-text">
+                  Object Oriented means directed towards objects.
+                  In other words, it means functionally directed towards modelling objects.
+                  This is one of the many techniques used for modelling complex systems by describing a collection of
+                  interacting objects via their data and behavior.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Aug 7, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blogs/sql.png" alt="Ultimate Guide to Learn SQL Basics Intermediate Advanced"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3><a href="https://dev.to/mahmoudessam/ultimate-guide-to-learn-sql-basics-intermediate-advanced-3e0h"
+                    class="h3" target="_blank">Ultimate Guide to Learn SQL Basics Intermediate Advanced
+
+                  </a></h3>
+
+                <p class="blog-text">
+                  If you are someone who wants to learn SQL from scratch or you are someone who has learnt the SQL basic
+                  but still does not feel confident then this blog is for you.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">Mar 9, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blogs/browsers.jpg" alt="The Architecture of Web Browsers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="https://dev.to/mahmoudessam/the-architecture-of-web-browsers-1o1k" class="h3"
+                    target="_blank">The Architecture of Web Browsers</a></h3>
+
+                <p class="blog-text">
+                  The Architecture and how the different components work together
+                  How the Rendering Engine works
+                  The following diagram illustrates the parts of a web browser and how they interact with each other.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">Dec 11, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blogs/http.jpg" alt="Introduction to HTTP" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="https://dev.to/mahmoudessam/introduction-to-http-5hkj" class="h3"
+                    target="_blank">Introduction to HTTP</a>
+                </h3>
+
+                <p class="blog-text">
+                  Hypertext Transfer Protocol (HTTP) is a protocol that provides a standardized way for computers to
+                  communicate with each other.
+
+                  It has been the foundation for data communication over the internet since 1990 and is integral to
+                  understanding how client-server communication functions.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-13">Sep 6, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blogs/APISec_photonphoto_AdobeStock.jpeg" alt="What are APIs?" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Development</button>
+
+                <h3><a href="https://dev.to/mahmoudessam/what-are-apis-1elg" class="h3" target="_blank">What are
+                    APIs?</a></h3>
+
+                <p class="blog-text">
+                  If you look up the term API, you'll probably find a number of definitions—some of which are rather
+                  difficult to understand.
+
+                  But the key underlying idea is in the name—Application Programming Interface.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Mahmoud Elkariouny">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Mahmoud Elkariouny</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-21">Sep 5, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more"><a href="https://dev.to/mahmoudessam" target="_blank">Read More</a></button>
+
+        </div>
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="code-slash-sharp"></ion-icon>
+              </div>
+
+              <p>Software Development</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#softwaredevelopment</button>
+              <button class="hashtag">#webdev</button>
+              <button class="hashtag">#programming </button>
+              <button class="hashtag">#softwareengineer </button>
+              <button class="hashtag">#webdevelopment </button>
+              <button class="hashtag">#database </button>
+              <button class="hashtag">#frontend </button>
+              <button class="hashtag">#backend </button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="https://discord.com/channels/988098121550667877/988098122053980191" target="_blank"
+                    class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/Mahmoud42275" class="icon-box twitter" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="icon-box linkedin"
+                    target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo-light.svg" alt="DevBlog's Logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="DevBlog's Logo" width="150" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/" class="footer-link"
+              target="_blank">LinkdIn</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/mahmoudessam820" target="_blank" class="footer-link">GitHub</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Mahmoud42275" target="_blank" class="footer-link">Twitter</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Another Blog</p>
+
+        <ul>
+
+          <li>
+            <a href="https://dev.to/mahmoudessam/" target="_blank" class="footer-link">Dev.to</a>
+          </li>
+
+          <li>
+            <a href="https://tealfeed.com/mahmoud_134478" target="_blank" class="footer-link">TealFeed</a>
+          </li>
+
+          <li>
+            <a href="https://www.medium.com/" target="_blank" class="footer-link">Medium</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="https://www.linkedin.com/in/mahmoud-el-kariouny-822719149/"
+        target="_blank">Code_Sky</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
