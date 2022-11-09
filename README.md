@@ -31,7 +31,22 @@ My Blog Portfolio is a fully responsive blog website, <br />Responsive for all d
 
 ![My Blog & Portfolio](./assets/images/blogandprotfolio.jpg "Desktop Mode")
 
-## Tech Stack (Dependencies)
+### I offer the following services:
+
+- Frontend
+- Backend
+- Full stack
+
+### 🛠 My Skills
+
+- HTML
+- CSS
+- JavaScript
+- Vue.js
+- Python
+- Flask
+
+## My Portfolio Tech Stack (Dependencies)
 
 ### Frontend Dependencies
 
@@ -40,10 +55,6 @@ You must have the **HTML**, **CSS**, **JavaScript** for our website.
 ## Tech Stack
 
 **Client:** HTML, CSS, Vue.js
-
-## 🛠 Skills
-
-HTML, CSS, Javascript
 
 ## Author
 
