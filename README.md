@@ -13,13 +13,13 @@
   aesthetically pleasing but also functional and easy to use.
 
 - I specialize in designing and developing websites and web applications
-  in Python and Vue.js using the latest technologies.
+  in Flask and Vue.js using the latest technologies.
 
 <div align="center">
   
   <h2 align="center">My Blog📰 & Portfolio👨‍💻</h2>
 
-My Blog Portfolio is a fully responsive blog website, <br />Responsive for all devices, build using HTML CSS JavaScript.
+My Blog Portfolio is a fully responsive website <br />Responsive for all devices, build using HTML CSS JavaScript.
 
 <a href="http://mahmoudelkariouny.surge.sh/"><strong>➥ Live</strong></a>
 
@@ -54,7 +54,7 @@ You must have the **HTML**, **CSS**, **JavaScript** for our website.
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vue.js
+**Client:** HTML, CSS, JavaScript
 
 ## Author
 
