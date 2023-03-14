@@ -1,2 +1,9 @@
 
 clear-sleet.surge.sh
+
+
+How to edit the portfolio
+
+1- surge --domain <domain url>
+
+2- Pass the project folder
